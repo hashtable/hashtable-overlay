@@ -16,5 +16,5 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="dev-perl/URI
-	perl-gcpan/Data-Validate-URI
+	dev-perl/Data-Validate-URI
 	dev-lang/perl"

@@ -15,6 +15,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="perl-gcpan/Data-Validate-Domain
-	perl-gcpan/Data-Validate-IP
+DEPEND="dev-perl/Data-Validate-Domain
+	dev-perl/Data-Validate-IP
 	dev-lang/perl"
