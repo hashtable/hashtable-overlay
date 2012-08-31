@@ -4,15 +4,16 @@
 
 EAPI="2"
 
-MODULE_AUTHOR="PETDANCE"
+MODULE_AUTHOR="DWHEELER"
 
 inherit perl-module
 
-DESCRIPTION="Web validation in a Perl object"
+DESCRIPTION="Test routines for examining the contents of files"
 
 LICENSE="|| ( Artistic GPL-1 GPL-2 GPL-3 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="dev-lang/perl app-text/tidyp"
+DEPEND=">=dev-perl/Text-Diff-1.410.0
+	dev-lang/perl"

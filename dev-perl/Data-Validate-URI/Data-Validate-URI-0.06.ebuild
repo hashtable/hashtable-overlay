@@ -4,15 +4,17 @@
 
 EAPI="2"
 
-MODULE_AUTHOR="PETDANCE"
+MODULE_AUTHOR="SONNEN"
 
 inherit perl-module
 
-DESCRIPTION="Web validation in a Perl object"
+DESCRIPTION="common url validation methods"
 
 LICENSE="|| ( Artistic GPL-1 GPL-2 GPL-3 )"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-DEPEND="dev-lang/perl app-text/tidyp"
+DEPEND="perl-gcpan/Data-Validate-Domain
+	perl-gcpan/Data-Validate-IP
+	dev-lang/perl"
