@@ -12,7 +12,7 @@ DESCRIPTION="Web validation in a Perl object"
 
 LICENSE="|| ( Artistic GPL-1 GPL-2 GPL-3 )"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~x86"
 IUSE=""
 
 RDEPEND="dev-lang/perl app-text/tidyp"
