@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <herd>perl</herd>
+  <maintainer>
+    <email>cmil@hashtable.de</email>
+  </maintainer>
+  <upstream>
+    <remote-id type="cpan">Config-GitLike</remote-id>
+    <remote-id type="cpan-module">Config::GitLike</remote-id>
+    <remote-id type="cpan-module">Config::GitLike::Cascaded</remote-id>
+    <remote-id type="cpan-module">Config::GitLike::Git</remote-id>
+  </upstream>
+</pkgmetadata>
