@@ -12,7 +12,7 @@ SRC_URI="http://hashtable.de/histvv-v${PV}.tar.gz"
 HOMEPAGE="http://histvv.uni-leipzig.de/"
 
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="amd64 x86"
 IUSE="gndlink test"
 
 RDEPEND="
