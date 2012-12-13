@@ -9,7 +9,7 @@ inherit eutils pax-utils
 DESCRIPTION="Headless WebKit with JavaScript API"
 HOMEPAGE="http://www.phantomjs.org/"
 SRC_BASE="http://phantomjs.googlecode.com/files/phantomjs-${PV}-linux-"
-SRC_URI="amd64? ( ${SRC_BASE}x86_64.tar.bz2 ) x86? ( ${SRC_BASE}x86_64.tar.bz2 )"
+SRC_URI="amd64? ( ${SRC_BASE}x86_64.tar.bz2 ) x86? ( ${SRC_BASE}i686.tar.bz2 )"
 
 LICENSE="BSD"
 SLOT="0"
