@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer>
+    <email>cmil@hashtable.de</email>
+  </maintainer>
+  <use>
+    <flag name="pack">
+      pack binary using <pkg>app-arch/upx-bin</pkg> or
+      <pkg>app-arch/upx-ucl</pkg>
+    </flag>
+    <flag name="text-rendering">
+      freetype support
+    </flag>
+  </use>
+</pkgmetadata>
